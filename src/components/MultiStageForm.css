@@ -1,0 +1,85 @@
+.form-stage {
+  margin-bottom: 20px;
+}
+
+.form-stage div {
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.navigation-buttons button {
+  padding: 8px 16px;
+  font-size: 1em;
+}
+
+/* Dropdown styling */
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.9); 
+  color: #000; /* Text color */
+  border: 2px solid #ff784e;
+  outline: none;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+/* Dropdown options */
+select option {
+  background: #fff; 
+  color: #000000; 
+  font-size: 1rem;
+  padding: 10px;
+}
+
+/* On focus or hover, highlighting the dropdown */
+select:focus,
+select:hover {
+  border: 2px solid #ff5722;
+  box-shadow: 0px 0px 10px #ff5722;
+}
+
+/* Fix visibility of options */
+select option:hover {
+  background: #ff784e; 
+  color: rgb(0, 0, 0);
+}
+
+/* Navigation Buttons Container */
+.navigation-buttons {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 15px; 
+  margin-top: 20px;
+  width: 100%;
+}
+
+
+/* Hover Effects */
+.navigation-buttons button:hover {
+  background: linear-gradient(90deg, #e64a19, #ff5722);
+  box-shadow: 0px 0px 15px #e64a19;
+  transform: scale(1.05);
+}
+
+/* Ensurring Buttons on Small Screens */
+@media (max-width: 600px) {
+  .navigation-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .navigation-buttons button {
+    width: 100%; /* Making the buttons take full width on mobile */
+    max-width: 100%;
+  }
+}
