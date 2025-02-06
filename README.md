@@ -7,6 +7,8 @@ This is a multi-stage form for a Mars visit application, built with React.
 
 ## Setup Instructions
 
+## You need to have Node.Js installed to run this, If you don't have it, install from https://nodejs.org/en. CLose and reopen VS code and run node -v and npm -v to check the versions. If you see the versions, follow the steps below to run the app locally.
+
 ### Clone the Repository
 git clone https://github.com/udaysonyus/mars-visit-application.git
 
